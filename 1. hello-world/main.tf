@@ -12,6 +12,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "test" {
-  ami = "ami-011899242bb902164"
+  ami = "ami-0fabdb639e489a381" # Eu West Ubuntu 22.04
   instance_type = "t2.micro"
 }
